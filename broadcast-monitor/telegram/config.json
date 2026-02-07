@@ -1,0 +1,23 @@
+{
+  "bot": {
+    "name": "Broadcast Monitor Bot",
+    "description": "Otomatik yayın izleme ve hata bildirim sistemi"
+  },
+  "notifications": {
+    "sendStartup": true,
+    "sendShutdown": true,
+    "sendErrors": true,
+    "sendDailyReport": true,
+    "dailyReportTime": "09:00"
+  },
+  "formatting": {
+    "useMarkdown": true,
+    "useEmojis": true,
+    "maxMessageLength": 4096
+  },
+  "alerts": {
+    "immediateAlert": true,
+    "groupAlerts": false,
+    "alertDelay": 0
+  }
+}

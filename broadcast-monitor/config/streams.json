@@ -1,0 +1,58 @@
+{
+  "machines": [
+    {
+      "machineId": 1,
+      "machineName": "Makina-01",
+      "streams": [
+        {
+          "streamId": 1,
+          "streamName": "Yayın 1",
+          "url": "https://webrtc-1.neue7.com:5443/LiveApp/play.html?id=ap-cle-bg-131-stream-01",
+          "type": "rectangle",
+          "enabled": true
+        },
+        {
+          "streamId": 2,
+          "streamName": "Yayın 2",
+          "url": "https://webrtc-1.neue7.com:5443/LiveApp/play.html?id=ap-cle-bg-131-stream-02",
+          "type": "rectangle",
+          "enabled": true
+        },
+        {
+          "streamId": 3,
+          "streamName": "Yayın 3 (USB)",
+          "url": "https://webrtc-1.neue7.com:5443/LiveApp/play.html?id=ap-cle-bg-131-stream-03",
+          "type": "usb",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "machineId": 2,
+      "machineName": "Makina-02",
+      "streams": [
+        {
+          "streamId": 1,
+          "streamName": "Yayın 1",
+          "url": "https://webrtc-1.neue7.com:5443/LiveApp/play.html?id=ap-cle-bg-137-stream-01",
+          "type": "rectangle",
+          "enabled": true
+        },
+        {
+          "streamId": 2,
+          "streamName": "Yayın 2",
+          "url": "https://webrtc-1.neue7.com:5443/LiveApp/play.html?id=ap-cle-bg-137-stream-02",
+          "type": "rectangle",
+          "enabled": false
+        },
+        {
+          "streamId": 3,
+          "streamName": "Yayın 3 (USB)",
+          "url": "https://webrtc-1.neue7.com:5443/LiveApp/play.html?id=ap-cle-bg-137-stream-03",
+          "type": "usb",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}
